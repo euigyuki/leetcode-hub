@@ -3,17 +3,16 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Operating Systems',
+  title: 'Interview Workshop',
   tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
 
   url: 'https://euigyuki.github.io',
-  baseUrl: '/os-course/',
+  baseUrl: '/leetcode-hub/',
   
-
-  organizationName: 'euigyuki',
-  projectName: 'os-course',
-
+  organizationName: 'euigyuki', // Your GitHub username
+  projectName: 'leetcode-hub',  // Repo name
+  
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 

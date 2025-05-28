@@ -1,58 +1,53 @@
-# Introduction to Operating Systems
+# Welcome to the Interview Workshop
 
-## What is an Operating System?
-
-An **Operating System (OS)** is system software that manages computer hardware and software resources and provides common services for computer programs. It acts as an intermediary between users and the computer hardware, enabling efficient and secure operation of the system.
+This is a focused, collaborative space for students preparing for **technical interviews** — whether you're aiming for software engineering, machine learning, or research-based roles. The workshop is built to help you develop the problem-solving, communication, and system thinking skills needed to succeed.
 
 ---
 
-## 🎯 Why Study Operating Systems?
+## 🎯 What This Workshop Offers
 
-Understanding operating systems is fundamental for computer scientists and engineers because:
-
-- It provides insight into how computers work at a low level.
-- It enables efficient and secure software development.
-- It is crucial for system design, performance optimization, and troubleshooting.
-
+- 📚 **Curated problem sets** organized by core concepts (e.g., sliding window, dynamic programming, graphs)
+- 💬 **Mock interview opportunities** to improve articulation and confidence
+- 🧠 **Discussions around tradeoffs, constraints, and design**
+- 🛠️ **Hands-on coding practice** with real-time explanation and feedback
 
 ---
 
+## 🧱 Structure
 
+This site is organized by **concept**, not by week. You can work through problems in any order and revisit them as needed.
 
+Each topic includes:
+- 🔍 Concept overviews and patterns
+- 🧩 Representative LeetCode problems
+- ✅ Code templates and solution strategies
+- 🎥 Optional recordings and walkthroughs (if available)
 
-## Key Functions of an Operating System
-
-### Process Management
-- Schedules and manages the execution of processes (programs in execution).
-- Handles process creation, termination, and synchronization.
-
-### Memory Management
-- Allocates and deallocates memory space as needed by applications.
-- Ensures safe and efficient use of system memory.
-
-### File System Management
-- Organizes, stores, retrieves, and manipulates files on storage devices.
-- Manages permissions and access control for files and directories.
-
-### Device Management
-- Controls and coordinates the use of hardware devices (e.g., disks, printers, network interfaces).
-- Provides device drivers for hardware abstraction.
-
-### Security and Protection
-- Protects system resources and user data from unauthorized access.
-- Implements authentication, authorization, and encryption mechanisms.
-
-### User Interface
-- Provides user interfaces such as **Command Line Interfaces (CLI)** and **Graphical User Interfaces (GUI)**.
+You’re encouraged to use this resource both during and outside of sessions.
 
 ---
 
-## 🧰 Types of Operating Systems
+## 👥 Who Is This For?
 
-- **Batch Operating Systems**: Execute batches of jobs with minimal user interaction.
-- **Time-Sharing Operating Systems**: Allow multiple users to interact with a computer at the same time.
-- **Distributed Operating Systems**: Manage a group of distinct computers and make them appear as a single system.
-- **Embedded Operating Systems**: Designed for specialized devices like routers, smart TVs, and IoT devices.
-- **Real-Time Operating Systems (RTOS)**: Guarantee response times for critical tasks, often used in industrial and embedded systems.
+- Students preparing for internships or full-time roles in tech
+- Anyone looking to strengthen their fundamentals in data structures and algorithms
+- People who want structure and community while practicing
 
+---
 
+## 💡 How to Get the Most Out of It
+
+- Solve at least one problem per concept before discussion sessions
+- Bring questions or alternative solutions
+- Write down edge cases and time/space complexity
+- Practice articulating your reasoning — this matters more than just “getting the answer”
+
+---
+
+## 🧠 Guiding Principle
+
+> “Interview success is built on fundamentals, clarity, and consistency.”
+
+We’re here to build those — together.
+
+---
