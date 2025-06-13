@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="generator" content="Docusaurus v3.7.0">
 <title data-rh="true">Dynamic Programming | Interview Workshop</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://euigyuki.github.io/leetcode-hub/img/docusaurus-social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://euigyuki.github.io/leetcode-hub/img/docusaurus-social-card.jpg"><meta data-rh="true" property="og:url" content="https://euigyuki.github.io/leetcode-hub/docs/leetcode_patterns/dynamic-programming"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Dynamic Programming | Interview Workshop"><meta data-rh="true" name="description" content="Dynamic Programming (DP) is a powerful optimization technique used to solve problems with overlapping subproblems and optimal substructure."><meta data-rh="true" property="og:description" content="Dynamic Programming (DP) is a powerful optimization technique used to solve problems with overlapping subproblems and optimal substructure."><link data-rh="true" rel="icon" href="/leetcode-hub/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://euigyuki.github.io/leetcode-hub/docs/leetcode_patterns/dynamic-programming"><link data-rh="true" rel="alternate" href="https://euigyuki.github.io/leetcode-hub/docs/leetcode_patterns/dynamic-programming" hreflang="en"><link data-rh="true" rel="alternate" href="https://euigyuki.github.io/leetcode-hub/docs/leetcode_patterns/dynamic-programming" hreflang="x-default"><link rel="stylesheet" href="/leetcode-hub/assets/css/styles.a0efd554.css">
-<script src="/leetcode-hub/assets/js/runtime~main.bcbcda1f.js" defer="defer"></script>
+<script src="/leetcode-hub/assets/js/runtime~main.51bfa5dc.js" defer="defer"></script>
 <script src="/leetcode-hub/assets/js/main.97e99b5a.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -27,18 +27,22 @@
 <hr>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="-templates">📝 Templates<a href="#-templates" class="hash-link" aria-label="Direct link to 📝 Templates" title="Direct link to 📝 Templates">​</a></h2>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="top-down-memoization">Top-Down (Memoization)<a href="#top-down-memoization" class="hash-link" aria-label="Direct link to Top-Down (Memoization)" title="Direct link to Top-Down (Memoization)">​</a></h3>
-<p>def dp(i):
+<p>&#x27;&#x27;&#x27;python
+def dp(i):
 if i in memo:
 return memo[i]
 if base_case(i):
 return result
 memo[i] = combine(dp(i-1), dp(i-2), ...)
-return memo[i]</p>
+return memo[i]
+&#x27;&#x27;&#x27;</p>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="bottom-up-tabulation">Bottom-Up (Tabulation)<a href="#bottom-up-tabulation" class="hash-link" aria-label="Direct link to Bottom-Up (Tabulation)" title="Direct link to Bottom-Up (Tabulation)">​</a></h3>
-<p>dp = [0] * (n + 1)
+<p>&#x27;&#x27;&#x27;python
+dp = [0] * (n + 1)
 dp[0] = base_case
 for i in range(1, n + 1):
 dp[i] = combine(dp[i-1], dp[i-2], ...)
-return dp[n]</p></div></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/leetcode-hub/docs/intro"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">Welcome to the Interview Workshop</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/leetcode-hub/docs/system_design/"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">System Design Primer</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#-key-concepts" class="table-of-contents__link toc-highlight">🧠 Key Concepts</a></li><li><a href="#-common-types-of-dp" class="table-of-contents__link toc-highlight">🧰 Common Types of DP</a></li><li><a href="#-leetcode-top150-problems" class="table-of-contents__link toc-highlight">💻 Leetcode TOP150 Problems</a></li><li><a href="#-templates" class="table-of-contents__link toc-highlight">📝 Templates</a><ul><li><a href="#top-down-memoization" class="table-of-contents__link toc-highlight">Top-Down (Memoization)</a></li><li><a href="#bottom-up-tabulation" class="table-of-contents__link toc-highlight">Bottom-Up (Tabulation)</a></li></ul></li></ul></div></div></div></div></main></div></div></div><footer class="footer footer--dark"><div class="container container-fluid"><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2025 My Project, Inc. Built with Docusaurus.</div></div></div></footer></div>
+return dp[n]
+&#x27;&#x27;&#x27;</p></div></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/leetcode-hub/docs/intro"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">Welcome to the Interview Workshop</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/leetcode-hub/docs/system_design/"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">System Design Primer</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#-key-concepts" class="table-of-contents__link toc-highlight">🧠 Key Concepts</a></li><li><a href="#-common-types-of-dp" class="table-of-contents__link toc-highlight">🧰 Common Types of DP</a></li><li><a href="#-leetcode-top150-problems" class="table-of-contents__link toc-highlight">💻 Leetcode TOP150 Problems</a></li><li><a href="#-templates" class="table-of-contents__link toc-highlight">📝 Templates</a><ul><li><a href="#top-down-memoization" class="table-of-contents__link toc-highlight">Top-Down (Memoization)</a></li><li><a href="#bottom-up-tabulation" class="table-of-contents__link toc-highlight">Bottom-Up (Tabulation)</a></li></ul></li></ul></div></div></div></div></main></div></div></div><footer class="footer footer--dark"><div class="container container-fluid"><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2025 My Project, Inc. Built with Docusaurus.</div></div></div></footer></div>
 </body>
 </html>
