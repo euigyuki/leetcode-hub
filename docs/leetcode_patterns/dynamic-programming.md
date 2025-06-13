@@ -4,7 +4,7 @@ Dynamic Programming (DP) is a powerful optimization technique used to solve prob
 
 ---
 
-## 🧠 Key Concepts
+##  Key Concepts
 
 - **Memoization**: Top-down recursion with caching
 - **Tabulation**: Bottom-up iteration
@@ -13,7 +13,7 @@ Dynamic Programming (DP) is a powerful optimization technique used to solve prob
 
 ---
 
-## 🧰 Common Types of DP
+## Common Types of DP
 
 | Type                   | Examples                                      |
 |------------------------|-----------------------------------------------|
@@ -27,7 +27,7 @@ Dynamic Programming (DP) is a powerful optimization technique used to solve prob
 ---
 
 
-## 📝 Templates
+## Templates
 
 ### Top-Down (Memoization)
 ```python
