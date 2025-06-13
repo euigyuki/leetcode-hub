@@ -30,7 +30,7 @@ Dynamic Programming (DP) is a powerful optimization technique used to solve prob
 ## 📝 Templates
 
 ### Top-Down (Memoization)
-'''python
+```python
 def dp(i):
     if i in memo:
         return memo[i]
@@ -38,12 +38,12 @@ def dp(i):
         return result
     memo[i] = combine(dp(i-1), dp(i-2), ...)
     return memo[i]
-'''
+```
 ### Bottom-Up (Tabulation)
-'''python
+```python
 dp = [0] * (n + 1)
 dp[0] = base_case
 for i in range(1, n + 1):
     dp[i] = combine(dp[i-1], dp[i-2], ...)
 return dp[n]
-'''
+```
