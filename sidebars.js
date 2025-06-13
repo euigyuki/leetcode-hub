@@ -10,17 +10,9 @@ const sidebars = {
       type: 'category',
       label: 'Leetcode Patterns',
       items: [
-        // 'patterns/arrays-hashing',
-        // 'patterns/two-pointers',
-        // 'patterns/sliding-window',
-        // 'patterns/stack',
-        // 'patterns/binary-search',
-        // 'patterns/tree-traversal',
-        // 'patterns/graph',
         'leetcode_patterns/dynamic-programming',
-        // 'patterns/backtracking',
-        // 'patterns/greedy',
-        // 'patterns/misc',
+        'leetcode_patterns/leetcode150',
+       
       ],
     },
     {
