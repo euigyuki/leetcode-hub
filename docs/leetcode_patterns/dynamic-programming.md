@@ -26,15 +26,13 @@ Dynamic Programming (DP) is a powerful optimization technique used to solve prob
 
 ---
 
-## 💻 Example Problems
+## 💻 Leetcode TOP150 Problems
 
 | Problem | Link | Pattern |
 |--------|------|---------|
-| Climbing Stairs | [LC #70](https://leetcode.com/problems/climbing-stairs/) | 1D DP |
-| House Robber | [LC #198](https://leetcode.com/problems/house-robber/) | DP with Choices |
-| Coin Change | [LC #322](https://leetcode.com/problems/coin-change/) | Unbounded Knapsack |
-| Longest Palindromic Substring | [LC #5](https://leetcode.com/problems/longest-palindromic-substring/) | 2D DP |
-| Edit Distance | [LC #72](https://leetcode.com/problems/edit-distance/) | 2D DP (Strings) |
+| Number of Islands | [LC #200](https://www.youtube.com/watch?v=ZwhHeUPxiX4) | 1D DP |
+| Longest Increasing Subsequence | [LC #300](https://www.youtube.com/watch?v=momssNw_9_0) | DFS/BFS |
+| Triangle | [LC #120](https://www.youtube.com/watch?v=S49eEFMY2HI) | 2D DP  |
 
 ---
 
